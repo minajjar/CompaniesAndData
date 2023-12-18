@@ -1,0 +1,38 @@
+.card-usr form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-usr select,
+.card-usr input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.card-usr button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card-usr button:hover {
+    background-color: #45a049;
+}
+
+.h1 {
+    color: azure;
+}
+
+.card-usrs-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+}

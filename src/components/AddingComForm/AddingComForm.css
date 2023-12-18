@@ -1,0 +1,46 @@
+
+.card-com form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-com select,
+.card-com input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.card-com input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.card-com button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card-com button:hover {
+    background-color: #45a049;
+}
+
+.h1 {
+    color: azure;
+}
+
+.card-coms-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 5px;
+}
